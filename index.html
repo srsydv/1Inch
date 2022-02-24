@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1Inch</title>
+  </head>
+
+  <body>
+    <h2>1Inch Marketplace</h2>
+
+    <div id="createItem">
+      <!-- <h4>Create Item</h4> -->
+      <input
+        type="text"
+        id="fromAddress"
+        required
+        placeholder="From Token Address"
+      />
+      <input
+        type="text"
+        id="toTokenAddress"
+        required
+        placeholder="To Token Address"
+      />
+      <input
+        type="text"
+        id="amount"
+        required
+        placeholder="Amount"
+      />
+
+      <button id="btnsendAmount">Send Amount</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="swap.js"></script>
+  </body>
+</html>
